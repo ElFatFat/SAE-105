@@ -1,0 +1,149 @@
+/** Les ID et class sont écrit de telle façon : type_conteneur_fonction**/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{font-family: 'Quicksand', sans-serif;
+margin: 0;
+padding:0}
+body {
+    background-color: rgb(43, 43, 43);
+    overflow-x: hidden;}
+
+.hidden {visibility: none;}
+.nonexistant{
+    visibility: none;
+    width: 0px;
+    height: 0px;}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 10vh;
+    
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    background: linear-gradient(rgb(0, 0, 0), rgba(170, 170, 170, 0));} 
+    header img{
+    height: 6.5vh;
+    margin: 1em;}
+    header a {
+    margin-top: 1.65em;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2em;}
+    header a:hover{transform: scale(1.1);}
+/* Layout HeroSection*/
+#div_content_heroSection {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    background: url("../Ressources/image1.jpg") no-repeat top center ;
+    background-size: cover!important;}
+    #div_heroSection_selector {
+    height: 6vh;
+    padding-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;}
+        #section_heroSection_text {
+    height: 80vh;
+    width: 100vw;
+    padding-top: 80vh;
+    padding-left: 3vw;
+    color: white;}
+            #section_heroSection_text h2{
+                font-size: 3em;
+                font-weight: 500;
+            letter-spacing: 5px;}
+            #section_heroSection_text h3{
+                font-size: 1em;
+                font-weight: 500;}
+            #section_heroSection_text a{
+                color: rgb(173, 173, 173);
+                text-decoration: none;}
+            #section_heroSection_text a:hover{
+                color: rgb(202, 202, 202);
+                text-decoration:underline;
+            }
+    #div_heroSection_selector div{
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: rgb(124, 124, 124);
+    margin-right: 0.2em;
+    margin-left: 0.2em;}
+    .active_selector {
+        background-color: white!important;
+    }
+
+#section_content_videos {
+    width: 100vw;
+    height: 45vh;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    vertical-align: middle;
+}
+
+#section_content_videos iframe{
+    margin-top: 3.7em;
+    border: 0px;
+}
+
+#section_content_informations {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    width: 100vw;
+    height: 60vh;
+}
+
+#section_content_informations a{
+    text-decoration: none;
+    color: white;
+}
+
+#section_content_informations h1 {
+    letter-spacing: 5px;
+    
+}
+
+footer {
+    width: 100vw;
+    height: 20vh;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#div_footer_links {
+    display: flex;
+    flex-direction: row;
+}
+
+#div_footer_links a{
+    text-decoration: none;
+    color: white;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+
+
+
+    /**NE PAS TOUCHER FONCTION SPECIFIQUES**/
+#div_header_offset {
+    width:3em;}
