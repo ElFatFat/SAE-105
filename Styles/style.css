@@ -35,6 +35,9 @@ header {
     color: white;
     font-weight: 700;
     font-size: 1.2em;}
+    #logo_link {
+        margin-top: -0.2em;
+    }
     header a:hover{transform: scale(1.1);}
 /* Layout HeroSection*/
 #div_content_heroSection {
@@ -141,9 +144,52 @@ footer {
     padding-right: 0.5em;
 }
 
+.content_secondary {
+    width: 100vw;
+    min-height: 80vh;
+}
+#section_body_discographie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#section_body_discographie h2 {
+    height: fit-content;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+}
+#section_body_discographie p {
+    height: fit-content;
+}
+#section_body_discographie section {
+    margin-bottom: 2em;
+    height: 15em;
+    width: 90vw;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    border-radius: 20px;
 
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:start
+}
+#section_body_discographie img {
+    height: 13em;
+    width: 13em;
+    padding: 1em;
+    border-radius: 20px;
+}
+.content_text {
+    display: flex;
+    flex-direction: column;
+    height: 13em;
+}
 
     /**NE PAS TOUCHER FONCTION SPECIFIQUES**/
 #div_header_offset {
     width:3em;}
+
+#offset {
+    height: 13vh;
+}

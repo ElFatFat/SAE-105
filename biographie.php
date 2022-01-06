@@ -15,6 +15,10 @@
 
     <?php include('header.html'); ?>
 
+    <section id="section_body_biographie" class="content_secondary">
+
+    </section>
+
     <?php include('footer.html'); ?>
   </body>
 </html>
