@@ -42,16 +42,15 @@
               <h2>Genre</h2>
               <p>Pop Rock / Electro / Hip Hop</p>
               <br>
-              <h2>Membres</h2>
+              <h2>Membres actuels :</h2>
               <ul>
                   <li><a href="https://fr.wikipedia.org/wiki/Tyler_Joseph">Tyler Joseph</a></li>
                   <li><a href="https://fr.wikipedia.org/wiki/Josh_Dun">Josh Dun</a></li>
               </ul>
               <br>
               <h2>Années d'activité :</h2>
-              <p>2009 - hgfgzehfrgvghev</p>
+              <p>2009 - Actuellement</p>
               <br>
-              <a href="https://twentyonepilots.com">Site Web</a>
               <h2>Labels :</h2>
               <p>Elektra / Fueled by Ramen</p>
 
