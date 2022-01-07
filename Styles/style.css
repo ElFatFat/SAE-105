@@ -109,17 +109,31 @@ header {
     color: white;
     width: 100vw;
     height: 60vh;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
-#section_content_informations a{
+a{
     text-decoration: none;
     color: white;
+}
+a:hover {
+    transform: scale(1.05);
+    text-decoration: underline;
 }
 
 #section_content_informations h1 {
     letter-spacing: 5px;
-    
+    font-size: 2em;
 }
+#section_content_informations p {
+    font-weight: 300;
+}
+#section_content_informations li {
+    font-weight: 300;
+}
+
+
 
 footer {
     width: 100vw;
@@ -153,6 +167,15 @@ footer {
     flex-direction: column;
     align-items: center;
 }
+#section_body_biographie {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 2em;
+}
+#section_body_biographie p{
+    width: 90vw;
+}
 #section_body_discographie h2 {
     height: fit-content;
     padding-top: 0.5em;
@@ -160,6 +183,8 @@ footer {
 }
 #section_body_discographie p {
     height: fit-content;
+    flex-grow: 1;
+    max-width:700px; 
 }
 #section_body_discographie section {
     margin-bottom: 2em;
