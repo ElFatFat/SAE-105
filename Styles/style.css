@@ -233,4 +233,7 @@ footer {
     height: 5vh;
     border-style: none;
     border-radius: 20px;
+    margin-bottom: 1em;
+    padding-left: 0.5em;
 }
+
