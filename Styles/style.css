@@ -218,3 +218,19 @@ footer {
 #offset {
     height: 13vh;
 }
+
+#content_bonus5w {
+    width: 100vw;
+    height: 67vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+#search_field {
+    width: 50vw;
+    height: 5vh;
+    border-style: none;
+    border-radius: 20px;
+}
