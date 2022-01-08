@@ -78,19 +78,44 @@ function isinputInFile()
 
     $i = 0;
     $resultNumber = 0;
-    while($i<$sizeTab) {
-        $musicListTabUppercase = strtoupper($musicListTab[$i]);
-        if (str_contains($musicListTabUppercase, $valueInputUppercase)) { 
-            $resultNumber = $resultNumber + 1;
-            echo ($musicListTab[$i]).' contient la recherche "' . ($valueInput) . '". <br>';
-            displayInfo($i);
+
+    //Commande DEV avec @xx 
+    //xx etant une valeur numérique entre 0 et 66
+    if (str_starts_with($valueInput, '@')){
+        $command = substr($valueInput, 1);
+        if($command != "") {
+            if (is_numeric($command)){
+                if ($command>($sizeTab-1)){
+                    echo '<script>alert("Veuillez entrer une valeur inférieure à la quantité de musique.")</script>';
+
+                }else {
+                displayInfo($command);
+                }
+            }else {
+                echo '<script>alert("Veuillez entrer une valeur numérique uniquement.")</script>';
+            }
+        }else {
+        while($i<$sizeTab) {
+                $resultNumber = $resultNumber + 1;
+                displayInfo($i);
+            }
         }
-        $i = $i + 1;
-      }
-    if ($resultNumber == 0) {
-        echo "0 résultats correspondant à votre recherche.";
+
+
+    }else {
+        while($i<$sizeTab) {
+            $musicListTabUppercase = strtoupper($musicListTab[$i]);
+            if (str_contains($musicListTabUppercase, $valueInputUppercase)) { 
+                $resultNumber = $resultNumber + 1;
+                displayInfo($i);
+            }
+            $i = $i + 1;
+            }
+            if ($resultNumber == 0) {
+                echo "0 résultats correspondant à votre recherche.";
+            }
+        }
     }
-}
 
 function displayInfo($index){
 global $musicListTab;
@@ -98,7 +123,7 @@ global $urlListTab;
 global $durationListTab;
 global $albumListTab;
 
-echo '<div id="result_search"><p>Titre de la chanson : '.($musicListTab[$index]).'</p><br><p>Url de la musique : '.($urlListTab[$index]).'</p><br><p>Durée du titre : '.($durationListTab[$index]).'</p><br><p>Album contenant le titre : '.($albumListTab[$index]).'</p><br></div>';
+echo '<div class="result_search"><p class="title_search"> <strong>'.($musicListTab[$index]).'</strong> - '.($albumListTab[$index]).'<br>'.($urlListTab[$index]).'<br><p>Durée du titre : '.($durationListTab[$index]).'</p><br></div>';
 }
 //Attente de l'appui du bouton pour lancer la fonction isInputInFile()
 if(array_key_exists('button_search',$_POST)){
