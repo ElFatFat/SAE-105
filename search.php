@@ -96,8 +96,9 @@ function isinputInFile()
             }
         }else {
         while($i<$sizeTab) {
-                $resultNumber = $resultNumber + 1;
+                
                 displayInfo($i);
+                $i = $i+1;
             }
         }
 
