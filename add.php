@@ -35,10 +35,9 @@ function displayInfo($index){
 
 function checkForEmpty($a,$b,$c,$d){
     if(($a!="")&&($b!="")&&($c!="")&&($d!="")){
-        echo 'Valeur présentes';
         addDataToFile($a,$b,$c,$d);
     }else {
-        echo 'Valeur manquante';
+        echo "<script>alert('Valeurs manquantes');</script>";
     }
 }
 

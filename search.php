@@ -36,8 +36,7 @@ function isinputInFile()
     $i = 0;
     $resultNumber = 0;
 
-    //Commande DEV avec @xx 
-    //xx etant une valeur numérique entre 0 et 66
+    //Commande DEV avec @xxxxxx
     if (str_starts_with($valueInput, $prefixDev)) {
         $command = substr($valueInput, 1);
         if (str_starts_with($command, 'show')) {
@@ -79,14 +78,8 @@ function isinputInFile()
             }
         }
 
-        if ($command != "") {
-            while ($i < $sizeTab) {
-
-                displayInfo($i);
-                $i = $i + 1;
-            }
-        }
     } else {
+
         while ($i < $sizeTab) {
             $musicListTabUppercase = strtoupper($musicListTab[$i]);
             if (str_contains($musicListTabUppercase, $valueInputUppercase)) {
