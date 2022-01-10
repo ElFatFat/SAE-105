@@ -107,5 +107,3 @@ function fileToTabAlbum() {
 if(array_key_exists('button_add',$_POST)){
     checkForEmpty($_POST['title_field'], $_POST['duration_field'],$_POST['album_field'], $_POST['url_field']);
 }
-
-?>

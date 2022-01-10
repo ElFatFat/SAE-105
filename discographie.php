@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <link rel="icon" href="Ressources/favicon.ico" />
     <title>Twenty One Pilots</title>
-    <meta name="Description" content="Site web officiel du groupe Twenty One Pilots"/>
-    <meta name="keywords" content="MOW, musique, groupe, officiel, electro, rock"/>
+    <meta name="Description" content="Site web officiel du groupe Twenty One Pilots" />
+    <meta name="keywords" content="MOW, musique, groupe, officiel, electro, rock" />
     <link href="Styles/style.css" rel="stylesheet" type="text/css">
     <script src="Javascript/javascript.js" type="text/javascript"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://livejs.com/live.js"></script> <!--Inclus afin de reload la page automatiquement dans le navigateur a des fins de développement-->
-  </head>
-  <body>
+    <script src="https://livejs.com/live.js"></script>
+    <!--Inclus afin de reload la page automatiquement dans le navigateur a des fins de développement-->
+</head>
+
+<body>
 
     <?php include('header.html'); ?>
 
@@ -51,7 +54,7 @@
                 <h2><i>Trench</i> (2018)</h2>
                 <p>Trench est le cinquième album studio du duo musical américain Twenty One Pilots, sorti le 5 octobre 2018 avec le label Fueled by Ramen.
 
-                Il s'agit du premier album studio du groupe en trois ans, après le succès décisif de leur précédent album, Blurryface sorti en 2015. Il fait en fait suite à ce dernier, en poursuivant la narration tout en élargissant l’univers fictif créé autour des deux protagonistes. Enregistré en secret accompagné d'un silence radio d'un an, Trench a été conçu pour être un album concept qui explore les sujets de la santé mentale, du suicide et du doute.</p>
+                    Il s'agit du premier album studio du groupe en trois ans, après le succès décisif de leur précédent album, Blurryface sorti en 2015. Il fait en fait suite à ce dernier, en poursuivant la narration tout en élargissant l’univers fictif créé autour des deux protagonistes. Enregistré en secret accompagné d'un silence radio d'un an, Trench a été conçu pour être un album concept qui explore les sujets de la santé mentale, du suicide et du doute.</p>
             </div>
         </section>
         <section>
@@ -61,10 +64,11 @@
                 <p>Scaled and Icy est le sixième album du duo américain Twenty One Pilots, sorti le 21 mai 2021 chez Fueled by Ramen et Elektra. Le titre de l'album est une anagramme de « Clancy is dead », une référence au protagoniste du dernier album Trench.</p>
             </div>
         </section>
-        
+
     </section>
 
     <?php include('footer.html'); ?>
 
-  </body>
+</body>
+
 </html>
