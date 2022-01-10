@@ -19,7 +19,7 @@
 
       <form method="post">
            <input type="text" placeholder="Recherchez le titre d'une musique" name="search_field" id="search_field"></input>
-          <input type="submit" name="button_search" id="button_search" value="Ajouter" /><br/>
+          <input type="submit" name="button_search" id="button_search" value="  ." /><br/>
       </form>
     <?php include('search.php'); ?>
 

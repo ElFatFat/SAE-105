@@ -225,3 +225,45 @@ a:hover {
 strong {
     font-size: 1.7em;
 }
+
+#content_bonus6w {
+    width: 100vw;
+    min-height: 67vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color: white;
+}
+
+#content_bonus6w form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input_field {    
+    width: 30vw;
+    height: 5vh;
+    border-style: none;
+    border-radius: 20px;
+    padding-top: -1em;
+    margin-bottom: 1em;
+    padding-left: 0.5em;
+}
+
+.button {
+    border: 2px black solid;
+    border-radius: 20px;
+    padding-inline: 0.5em;
+    min-width: 6em;
+    width: fit-content;
+    height: 3em;
+    transition: background-color 150ms, color 150ms;
+    font-weight: bold;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+}
