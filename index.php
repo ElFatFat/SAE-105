@@ -8,9 +8,7 @@
   <meta name="Description" content="Site web officiel du groupe Twenty One Pilots" />
   <meta name="keywords" content="MOW, musique, groupe, officiel, electro, rock" />
   <link href="Styles/style.css" rel="stylesheet" type="text/css">
-  <script src="Javascript/javascript.js" type="text/javascript"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://livejs.com/live.js"></script>
   <!--Inclus afin de reload la page automatiquement dans le navigateur a des fins de développement-->
 </head>
 
@@ -40,8 +38,8 @@
 
     <section id="section_content_videos">
       <iframe width="480" height="315" src="https://www.youtube.com/embed/pXRviuL6vMY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/Pw-0pbY9JeU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/UprcpdwuwCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Pw-0pbY9JeU" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/UprcpdwuwCg" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </section>
 
